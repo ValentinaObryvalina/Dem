@@ -1,0 +1,363 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Скрытие горизонтальной прокрутки */
+    width: 100%; /* Ограничение ширины */
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("./fonts/Manrope.woff2") format("woff2");
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HeliosC";
+    src: url("./fonts/heliosc.woff2") format("woff2");
+    src: url("./fonts/heliosc_bold.woff2") format("woff2");
+    src: url("./fonts/heliosc_bolditalic.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HeliosExt";
+    src: url("./fonts/heliosext.woff2") format("woff2");
+    src: url("./fonts/heliosext_bold.woff2") format("woff2");
+    src: url("./fonts/heliosext_bold_italic.woff2") format("woff2");
+    src: url("./fonts/heliosext_italic.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HeliosExtBlackC";
+    src: url("./fonts/heliosextblackc.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%; /* Адаптивный отступ */
+    width: 100vw;
+    max-width: 100%; /* Убираем горизонтальную прокрутку */
+    border-bottom: 2px solid #333;
+    background-image: url('image/фон1.jpg');
+    box-sizing: border-box;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 100vw;
+    max-width: 100%; /* Убираем горизонтальную прокрутку */
+    border-bottom: 2px solid #333;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.h_container1 {
+    width: 100px;
+    height: 40px;
+}
+
+.h_container2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+    font-family: 'HeliosExt';
+}
+
+.h_container3 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.header_stran {
+    font-family: 'HeliosC';
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:lighter;
+    color: #000000;
+}
+
+a:hover {
+    color: #FF651D;
+}
+
+a:active {
+    color: #ff651d87;
+}
+
+.b_container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'HeliosExtBlackC';
+    font-size: 40px;
+    color: #FF651D;
+    line-height: 36px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.b_container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1%;
+    font-family: 'HeliosExt';
+    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.text-box_1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 5px;
+    font-family: 'HeliosExt';
+    color: #FF651D;
+}
+.sadovaya {
+    display: flex;
+    justify-content: center;
+    padding: 50px 5px;
+    font-family: 'HeliosExt';
+    color: #FF651D;
+}
+
+.frame_1 {
+    box-sizing: border-box;
+    position: relative;
+
+    width: 43%; 
+    height: 50%;
+}
+
+.frame_2 {
+
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+
+.text-box_1 {
+    display: flex;
+    justify-content: left;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'HeliosExt';
+}
+
+.text-box_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+.button_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 12px 0px;
+}
+a.button {
+    display: flex;
+    justify-content: center;
+    padding: 12px 22px -10;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    color: #FF651D;
+    background: rgba(217, 217, 217, 0.1);
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+
+}
+
+.text-box_11 {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'HeliosExt';
+}
+
+.text-box_22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.button_11 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 12px 0px;
+
+}
+a.button00 {
+    display: flex;
+    justify-content: center;
+    padding: 12px 22px -10;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    color: #FF651D;
+    background: rgba(217, 217, 217, 0.1);
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+  
+}
+
+
+.bf_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'HeliosExt';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000;
+    margin: 0 auto;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background: #FF651D;
+    color: #ffffff;
+}
+.footer_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%; 
+    width: 100vw;
+    max-width: 100%; /* Убираем горизонтальную прокрутку */
+    box-sizing: border-box;
+}
+
+.f_container1 {
+    width: 80px;
+    height: 40px;
+}
+
+.f_container2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+    font-family: 'HeliosExt';
+    margin-left: 110px;
+}
+
+.f_container3 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.f_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+     font-family: 'HeliosC';
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+.frame_11 {
+    display: flex;
+    position: relative;
+
+    margin-top: 20px;    /* Верхний отступ */
+    margin-right: 10px;  /* Правый отступ */
+    margin-bottom: 20px; /* Нижний отступ */
+
+}
+
+.frame_22 {
+    display: flex;
+
+    margin-top: 20px;    
+    margin-right: 10px;  
+    margin-bottom: 0px;
+    margin-left: 0px;   
+    
+}
+.frame_3 {
+    display: flex;
+    margin-top: 20px;   
+    margin-right: 0px;  
+    margin-bottom: 0px; 
+    margin-left: 0px;   
+}
+
+
+.b_container2g {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1%;
+    font-family: 'HeliosExt';
+    margin-bottom: 150px;
+}
+
+.b_container3g {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1%;
+    font-family: 'HeliosExt';
+    margin-bottom: 150px;
+}
+
+
+.levaya1 {
+    width: 10%; 
+    height: 50%;
+}
+
+
+
+
+
+
+
